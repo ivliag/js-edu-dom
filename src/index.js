@@ -7,12 +7,3 @@ function createElement(tagName, text) {
     element.innerText = text;
     return element;
 }
-
-let h1 = createElement(
-    'h1',
-    'Результат умножения 12 на 46 и на 34 равен ' + multiplyNumbers(12, 46, 34)
-);
-
-document
-    .querySelector('.container')
-    .prepend(h1);
